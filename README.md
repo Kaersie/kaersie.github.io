@@ -4,14 +4,7 @@
 本项目是个人自站，网址： [http://kaersie.github.io](http://kaersie.github.io) ，内容主要和最近捣鼓的相关
 
 ## 全局
-+ 本站所有的按钮均为统一格式
-  
-	<button style="width: 200px;height: 100px;background-color:white; border: 0;border-radius: 10px;">
-        	<a href="https://kaersie.github.io" style="text-align: center;font-size: 28px;color: #005393;">按我回主页</a>
-	</button>
-
- 代码如下
- 
++ 本站所有的按钮均为统一格式，代码如下
 <code>
 	`<button style="width: 250px;height: 150px;background-color:white; border: 0;border-radius: 10px;">`
  	 `   <a href="https://kaersie.github.io" style="text-align: center;font-size: 28px;color: #005393;">按我回主页</a>`
@@ -75,7 +68,7 @@
 ### 全局更新
 
 + 增加页边距，显示更舒适
-+ 
+  
 + 由于整体迁移至Github，图片全部迁移至图床，音乐视频删除
 
 
