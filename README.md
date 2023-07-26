@@ -36,38 +36,3 @@
 ## 总结
 
 第一次从0开始写网站，可能效果一般，之后会使用Vue来重写。
-
-
-## 3.0更新内容
-
-### 首页改版
-
-[![pCXh8kF.md.png](https://s1.ax1x.com/2023/07/25/pCXh8kF.md.png)](https://imgse.com/i/pCXh8kF)
-
-+ 删去了视频和音频等难加载内容，新增加网站板块区域
-
-### 板块调整
-
-[![pCXhtp9.png](https://s1.ax1x.com/2023/07/25/pCXhtp9.png)](https://imgse.com/i/pCXhtp9)
-
-+ “项目”板块迁移至“文档”板块，新增“教程”板块
-
-### "文档"界面更新
-
-[![pCXhpQI.md.png](https://s1.ax1x.com/2023/07/25/pCXhpQI.md.png)](https://imgse.com/i/pCXhpQI)
-
-+ 以主题来分类，更加清晰
-  
-### “链接”界面更新
-
-[![pCXhSSA.png](https://s1.ax1x.com/2023/07/25/pCXhSSA.png)](https://imgse.com/i/pCXhSSA)
-
-+ 链接排列更整齐
-  
-### 全局更新
-
-+ 增加页边距，显示更舒适
-  
-+ 由于整体迁移至Github，图片全部迁移至图床，音乐视频删除
-
-
