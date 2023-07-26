@@ -4,12 +4,11 @@
 本项目是个人自站，网址： [http://kaersie.github.io](http://kaersie.github.io) ，内容主要和最近捣鼓的相关
 
 ## 全局
-+ 本站所有的按钮均为统一格式，代码如下
-<code>
-	`<button style="width: 250px;height: 150px;background-color:white; border: 0;border-radius: 10px;">`
- 	 `   <a href="https://kaersie.github.io" style="text-align: center;font-size: 28px;color: #005393;">按我回主页</a>`
- 	`</button>`
-</code>
++ 本站所有的按钮均为统一格式，代码如下<br>
+`<button style="width: 250px;height: 150px;background-color:white; border: 0;border-radius: 10px;">`<br>
+  `   <a href="https://kaersie.github.io" style="text-align: center;font-size: 28px;color: #005393;">按我回主页</a>`<br>
+ `</button>`<br>
+
 
 + 背景是由 Mac OS 12壁纸处理得到.
   
@@ -17,7 +16,7 @@
   
 ## 首页
 
-![首页图片](https://s1.ax1x.com/2023/07/25/pCXh8kF.md.png)
+![首页图片](https://s1.ax1x.com/2023/07/25/pCXR00S.png)
 
 *  往下滑还有联系方式等等内容。
   
