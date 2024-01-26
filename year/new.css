@@ -1,4 +1,11 @@
 @media (min-width: 0px) and (max-width:768px) {
+    html{
+        padding: 5px;
+        
+    }
+    body{
+        margin: 1px;
+    }
     .main{
         width: auto;
         height: auto;
@@ -7,11 +14,12 @@
         padding-top: 5px;
         padding-left: 8px;
         padding-right: 8px;
-        margin: 10px;
+        margin: 30px;
+        
 
     }
     .first,.second{
-        font-size: 30px;
+        font-size: 25px;
         border-color:white ;
     }
     ul{
@@ -43,6 +51,9 @@
     }
 }
 @media (min-width: 768px) {
+    body{
+        margin: 10px;
+    }
     #dock1{
         border-radius: 5px 5px 0 0;
     }

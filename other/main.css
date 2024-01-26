@@ -39,24 +39,67 @@ table{margin: auto;}
     text-align: center;
     font-size: 15px;
 }
-.linkbutton{
-    width: 300px;
-    height: 100px;
-    background-color:white;
-     border: 0;
-     border-radius: 10px;
-     margin: 3px;
-     transition: all 0.1s;
-}
+
 .docbu{width: 400px;height: 500px;background-color:white; border: 0;border-radius: 10px;margin: 20px; transition: all 0.1s;}
 .docbu:hover{background-color: #e3e3e9;width:415px;height:515px;}
-.linkbutton:hover{background-color: #e3e3e9;width:305px;height:105px;}
 .lba{text-align: center;font-size: 22px;color: #005393;}
-.lbh1{color:#005393;font-size: 10px;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 .namebutton{float: right;background-color: white;margin-right: 118px;margin-top: 8px;border-style:none; padding: 8.9px 20px;font-size: 15px;border-radius: 5px;color: #005393;}
 .dock{color: #005393;text-align: right}
 #headtitle{font-size: 60px;}
 .docsmall{color: #005393;font-size:23px;text-align: center;}
 .docbig{text-align:center;color: #005393;font-size: 25px;}
-.redbutton{width: 900px;height: 20px;background-color:red; border: 0;border-radius: 10px;overflow: hidden;transition: all 1s;}
+.redbutton{width: 90%;height: 20px;background-color:#a52a2a; border: 0;border-radius: 10px;overflow: hidden;transition: all 1s;}
 .redbutton:hover{height:150px;}
+
+.linkbutton2{
+    background-color: white;
+    width:100%;
+    height: 115px;
+    border-radius: 10px;   
+     margin: 5px;
+     padding: 20px;
+     transition: all 0.1s;
+     border: 0;
+     text-align: left;
+     font-size:40px;
+    
+}
+
+.linkbutton2:hover{background-color: #e3e3e9;width:100%+5px;height:120px;}
+
+
+@media (min-width: 0px) and (max-width:768px) {
+
+    .linkbutton{
+        background-color: white;
+        width:100%;
+        height: 115px;
+        border-radius: 10px;   
+         margin: 5px;
+         padding: 20px;
+         transition: all 0.1s;
+         border: 0;
+         text-align: left;
+         font-size:40px;
+        
+    }
+    .lbh1{color:#005393;font-size: 10px;text-align: left;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+    
+    .linkbutton:hover{background-color: #e3e3e9;width:100%+5px;height:120px;}
+}
+@media (min-width: 768px) {
+    .linkbutton:hover{background-color: #e3e3e9;width:305px;height:105px;}
+
+    .linkbutton{
+        width: 300px;
+        height: 100px;
+        background-color:white;
+         border: 0;
+         border-radius: 10px;
+         margin: 3px;
+         transition: all 0.1s;
+    }
+    .lbh1{color:#005393;font-size: 10px;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+}
