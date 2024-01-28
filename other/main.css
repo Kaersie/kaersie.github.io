@@ -5,8 +5,8 @@
     padding: 7.5px 16px;
     float:left;
     list-style:none;
-    color: #005393;
-    margin:auto;
+    color: #518ABD;
+    margin:0px;
     transition: all ;
 }
 li:hover{background-color: #e3e3e9;}
@@ -31,8 +31,7 @@ padding: 10px;
 font-size: 15px;
 }
 
-html{background-image: url(https://s1.ax1x.com/2023/07/28/pCzoeC6.jpg);background-size:cover;background-color:#001543;background-repeat: no-repeat;color: white;}
-body{margin-left: 50px;margin-right: 50px}/*设置页边距*/ 
+html{            background: linear-gradient(to bottom right,#51B4DB,#D1D868 95% );background-repeat: no-repeat;background-attachment:fixed;    color: white;}
 a{font-size: 15px;text-align: center;color: white;}
 table{margin: auto;}
 #banquan{
@@ -42,13 +41,13 @@ table{margin: auto;}
 
 .docbu{width: 400px;height: 500px;background-color:white; border: 0;border-radius: 10px;margin: 20px; transition: all 0.1s;}
 .docbu:hover{background-color: #e3e3e9;width:415px;height:515px;}
-.lba{text-align: center;font-size: 22px;color: #005393;}
-.namebutton{float: right;background-color: white;margin-right: 118px;margin-top: 8px;border-style:none; padding: 8.9px 20px;font-size: 15px;border-radius: 5px;color: #005393;}
-.dock{color: #005393;text-align: right}
+.lba{text-align: center;font-size: 22px;color: #518ABD;}
+.namebutton{float: right;background-color: white;margin-right: 118px;margin-top: 8px;border-style:none; padding: 8.9px 20px;font-size: 15px;border-radius: 5px;color: #518ABD;}
+.dock{color: #518ABD;text-align: right}
 #headtitle{font-size: 60px;}
-.docsmall{color: #005393;font-size:23px;text-align: center;}
-.docbig{text-align:center;color: #005393;font-size: 25px;}
-.redbutton{width: 90%;height: 20px;background-color:#a52a2a; border: 0;border-radius: 10px;overflow: hidden;transition: all 1s;}
+.docsmall{color: #518ABD;font-size:23px;text-align: center;}
+.docbig{text-align:center;color: #518ABD;font-size: 25px;}
+.redbutton{width: 90%;height: 20px;background-color:#BB4444;; border: 0;border-radius: 10px;overflow: hidden;transition: all 1s;}
 .redbutton:hover{height:150px;}
 
 .linkbutton2{
@@ -69,7 +68,7 @@ table{margin: auto;}
 
 
 @media (min-width: 0px) and (max-width:768px) {
-
+.bu4{margin-bottom: 5px;}
     .linkbutton{
         background-color: white;
         width:100%;
@@ -83,14 +82,14 @@ table{margin: auto;}
          font-size:40px;
         
     }
-    .lbh1{color:#005393;font-size: 10px;text-align: left;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    .lbh1{color:#518ABD;font-size: 10px;text-align: left;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
     
     .linkbutton:hover{background-color: #e3e3e9;width:100%+5px;height:120px;}
 }
 @media (min-width: 768px) {
     .linkbutton:hover{background-color: #e3e3e9;width:305px;height:105px;}
-
+    body{margin-left: 60px}/*设置页边距*/ 
     .linkbutton{
         width: 300px;
         height: 100px;
@@ -100,6 +99,6 @@ table{margin: auto;}
          margin: 3px;
          transition: all 0.1s;
     }
-    .lbh1{color:#005393;font-size: 10px;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    .lbh1{color:#518ABD;font-size: 10px;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 }
