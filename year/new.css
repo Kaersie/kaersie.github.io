@@ -1,4 +1,60 @@
-@media (min-width: 0px) and (max-width:768px){
+@media (min-width: 0px) and (max-width:500px){
+    html{
+        padding: 5px;
+        
+    }
+    body{
+        margin: 1px;
+    }
+    .ss{color: azure;font-size: 15px;}
+    .main{
+        width: auto;
+        height: auto;
+        background-color: #a52a2a;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 10px;
+        margin: 20px;
+        box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
+        transition: all 0.5s;
+
+    }
+ 
+    .first,.second{
+        font-size: 20px;
+        border-color:white ;
+    }
+    ul{
+    
+       size:10px
+    }
+    .neww{
+    transition: all 0.5s;
+    }
+    .neww:hover{
+        right:100%;
+        }
+    li{
+   
+        background-color: #a52a2a;
+        size:10px;
+        padding: 7.5px 16px;
+        float:left;
+        list-style:none;
+        color: white;
+        margin:auto;
+        transition: all ;
+    }
+    #dock1{
+        border-radius: 5px 5px 0 0;
+    }
+    #dock3{
+        border-radius: 0 0 5px 5px ;
+    }
+}
+@media (min-width: 500px) and (max-width:768px){
     html{
         padding: 5px;
         
@@ -139,5 +195,6 @@
     .ss{color: azure;font-size: 20px;}
 
 }
+.ss{letter-spacing:0px;}
 
 .html{font-family: 'Segoe UI',Droid Sans,Helvetica, Tahoma, Geneva, Verdana, sans-serif;font-display: optional;}

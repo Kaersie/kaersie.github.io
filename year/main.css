@@ -2,50 +2,7 @@
 li:hover{background-color: #a52a01;}
 ul{ z-index: 5;}
 h1{text-align: center;}
-pre{
-border: 1px solid #ddd;
-border-radius: 5px;
-padding: 10px;
-font-size: 15px;
-}
-.bu4{
-    width: 250px;height: 150px;background-color:white; border: 0;border-radius: 10px;transition: all 0.1s;
-}
-.bu4:hover{background-color: #e3e3e9;width: 260px;height: 160px;}
-.code{
-
-
-border: 1px solid #ddd;
-border-radius: 5px;
-padding: 10px;
-font-size: 15px;
-}
-
-html{background-size:cover;background-color:#e1d3ae;background-repeat: no-repeat;float:inline-start;color: white;}
-body{margin-left: 50px;margin-right: 50px}/*设置页边距*/ 
+html{background-size:cover;background-color:#e1d3ae;color: white;}
+body{margin-left: 10px;margin-right: 0px}/*设置页边距*/ 
 a{font-size: 15px;text-align: center;color: white;}
 table{margin: auto;}
-#banquan{
-    text-align: center;
-    font-size: 15px;
-}
-.linkbutton{
-    width: 300px;
-    height: 100px;
-    background-color:white;
-     border: 0;
-     border-radius: 10px;
-     margin: 3px;
-     transition: all 0.1s;
-}
-.docbu{width: 400px;height: 500px;background-color:white; border: 0;border-radius: 10px;margin: 20px; transition: all 0.1s;}
-.docbu:hover{background-color: #e3e3e9;width:415px;height:515px;}
-.linkbutton:hover{background-color: #e3e3e9;width:305px;height:105px;}
-.lba{text-align: center;font-size: 22px;color: #005393;}
-.lbh1{color:#005393;font-size: 10px;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-.dock{color: #005393;text-align: right;}
-#headtitle{font-size: 60px;}
-.docsmall{color: #005393;font-size:23px;text-align: center;}
-.docbig{text-align:center;color: #005393;font-size: 25px;}
-.redbutton{width: 900px;height: 20px;background-color:red; border: 0;border-radius: 10px;overflow: hidden;transition: all 1s;}
-.redbutton:hover{height:150px;}
