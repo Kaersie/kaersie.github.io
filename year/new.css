@@ -79,7 +79,7 @@
         padding-right: 50px;
     }
     .first,.second{
-        font-size: auto;
+        font-size: 25px;
         border-color:white ;
     }
     li{
@@ -93,7 +93,7 @@
         margin:auto;
         transition: all ;
     }
-    .ss{color: azure;font-size: 18px;}
+    .ss{color: azure;font-size: 15px;}
 
 }
 
@@ -122,7 +122,7 @@
         padding-right: 50px;
     }
     .first,.second{
-        font-size: 50px;
+        font-size: 45px;
         border-color:white ;
     }
     li{
