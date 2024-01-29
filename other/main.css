@@ -38,7 +38,8 @@ table{margin: auto;}
     text-align: center;
     font-size: 15px;
 }
-
+#bigside{position:absolute;width: 300px;height: 350px;font-size:20px;background-color: white;padding-left: 10px;padding-right:-10px ;color:#005393;border-radius:0 10px 10px 0;left:-280px;top:100px;transition:all 1s;;}
+#bigside:hover{left:0px}
 .docbu{width: 400px;height: 500px;background-color:white; border: 0;border-radius: 10px;margin: 20px; transition: all 0.1s;}
 .docbu:hover{background-color: #e3e3e9;width:415px;height:515px;}
 .lba{text-align: center;font-size: 22px;color: #518ABD;}
@@ -89,7 +90,7 @@ table{margin: auto;}
 }
 @media (min-width: 768px) {
     .linkbutton:hover{background-color: #e3e3e9;width:305px;height:105px;}
-    body{margin-left: 60px}/*设置页边距*/ 
+    body{margin-left: 40px;margin-right: 40px}/*设置页边距*/ 
     .linkbutton{
         width: 300px;
         height: 100px;
