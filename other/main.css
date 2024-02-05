@@ -21,6 +21,11 @@ span{margin: 10px;font-size: larger;}
 }
 @media (max-width: 450px) {
     .iim{visibility: hidden;}
+
+}
+@media (min-width: 450px) {
+    .shouji{visibility: hidden;}
+
 }
 a{text-decoration: none;}
 h2{color: #606266;}
