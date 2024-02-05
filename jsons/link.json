@@ -1,0 +1,39 @@
+[
+    {
+        "link":"https://element-plus.org",
+        "name":"Element-Plus",
+        "text":"基于 Vue 3，面向设计师和开发者的组件库"
+    },{
+        "link":"https://cn.vuejs.org/",
+        "name":"Vue.js",
+        "text":"一个渐进式 JavaScript 框架"
+    },{
+        "link":"https://photokit.com/",
+        "name":"PhotoKit",
+        "text":"基于AI的在线图片编辑器"
+    },{
+        "link":"https://www.geogebra.org/",
+        "name":"GeoGebra",
+        "text":"免费的数学工具,用于绘图计算, 几何作图等"
+    },{
+        "link":"https://snapdrop.net/#",
+        "name":"Snapdrop",
+        "text":"快传文件工具"
+    },{
+        "link":"https://www.runoob.com/",
+        "name":"菜鸟教程",
+        "text":"学习计算机技术平台"
+    },{
+        "link":"https://www.infinityfree.com/",
+        "name":"infinityfree",
+        "text":"免费托管网站平台"
+    },{
+        "link":"https://imgse.com/",
+        "name":"路过图床",
+        "text":"免费公共图床, 提供高速稳定服务"
+    },{
+        "link":"https://aust001.pythonanywhere.com/",
+        "name":"GPT4网页导航",
+        "text":"完全免费，无需翻墙，你可以随时随地探索和使用"
+    }
+]

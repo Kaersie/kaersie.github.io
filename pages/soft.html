@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://s1.ax1x.com/2023/07/21/pCHXsq1.png" sizes="32x32">
+    <link rel="stylesheet" href="../other/main.css">
+    <title>卡尔斯厄的站-软件</title>
+    <meta name="keywords" content="教程, 科技, 卡尔斯厄, 资源, 博客, 哔哩哔哩, bilibili, up主">
+    <meta name="description" content="简单创造不简单">
+    <meta name="author" content="卡尔斯厄">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/element-plus/dist/index.css"/>
+</head>
+<body data-v-app><div>
+    <ul role="menubar" class="el-menu el-menu--horizontal pp" style="--el-menu-text-color: #606266; --el-menu-hover-text-color: #606266; --el-menu-level: 0; border-radius: 5px;">
+        <li class="el-menu-item" onclick='window.location.href="../index.html"' style="margin: auto 20px;"><img src="https://s1.ax1x.com/2023/07/21/pCHXsq1.png" height="40px" style="border-radius: 3px; box-shadow: 0.05px 0.05px 1px 0.1px;"></li>
+        <li class="el-menu-item " onclick='window.location.href="doc.html"'>文档</li>
+        <li class="el-menu-item is-active" onclick='window.location.href="soft.html"'>软件</li>
+        <li class="el-menu-item" onclick='window.location.href="link.html"' style="margin-right: 60px;">导航</li>
+        <a class="iim" href="https://space.bilibili.com/1026296481" tabindex="0"><img src="https://www.bilibili.com/favicon.ico?v=1" height="20px" style="position: absolute; top: 30%; right: 60px;"></a>
+        <a class="iim" href="https://github.com/kaersie" tabindex="0"><img src="https://css.kkgithub.com/favicons/favicon.png" height="20px" style="position: absolute; top: 30%; right: 20px;"></a>
+    </ul>
+    <div class="main linkbu" id="app">
+
+    
+  </div>
+  <ul role="menubar" class="el-menu el-menu--vertical" style="--el-menu-level: 0; padding: 5px; border-radius: 5px; margin: 0px 60px;"><span class="el-text" style="font-size: small;">Copyright © 2024 卡尔斯厄 保留所有权利</span></ul>
+
+    </body>
+      <script>
+        async function showagain() {
+         const res = await fetch('../jsons/soft.json');
+        const data = await res.json();
+        let b=document.getElementById("app");
+        console.log(b);
+        for (let i=0,len=data.length;i<len;i++){
+          var p=document.createElement('div');
+          p.innerHTML='<a href="'+data[i].link+'" class="card2"><div class="el-card is-hover-shadow el-card1"><!--v-if--><div class="el-card__body" style=""><span class="el-text" style="font-size: 25px;">'+data[i].name+'</span><br><span class="el-text" style="font-size: 15px;">'+data[i].text+'</span></div><!--v-if--></div></a>'
+          b.appendChild(p);
+        }
+        }
+        showagain() ;
+        
+      </script>
+    </html>
