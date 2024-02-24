@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
@@ -9,61 +10,30 @@
     <meta name="keywords" content="教程, 科技, 卡尔斯厄, 资源, 博客, 哔哩哔哩, bilibili, up主">
     <meta name="description" content="简单创造不简单">
     <meta name="author" content="卡尔斯厄">
-<link rel="stylesheet" href="//unpkg.com/element-plus/dist/index.css" />    <script src="https://cdn.bootcss.com/marked/0.8.1/marked.min.js"></script>
-    <link href="https://cdn.bootcdn.net/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css" rel="stylesheet"></head>
-<body data-v-app><div>
-    <ul role="menubar" class="el-menu el-menu--horizontal pp" style="--el-menu-text-color: #606266; --el-menu-hover-text-color: #606266; --el-menu-level: 0; border-radius: 5px;">
-        <li class="el-menu-item" onclick='window.location.href="../index.html"' style="margin: auto 20px;"><img src="https://s1.ax1x.com/2023/07/21/pCHXsq1.png" height="40px" style="border-radius: 3px; box-shadow: 0.05px 0.05px 1px 0.1px;"></li>
-        <li class="el-menu-item" onclick='window.location.href="doc.html"'>文档</li>
-        <li class="el-menu-item" onclick='window.location.href="soft.html"'>软件</li>
-        <li class="el-menu-item" onclick='window.location.href="link.html"' style="margin-right: 60px;">导航</li>
-        <a class="iim" href="https://space.bilibili.com/1026296481" tabindex="0"><img src="https://www.bilibili.com/favicon.ico?v=1" height="20px" style="position: absolute; top: 30%; right: 60px;"></a>
-        <a class="iim" href="https://github.com/kaersie" tabindex="0"><img src="https://css.kkgithub.com/favicons/favicon.png" height="20px" style="position: absolute; top: 30%; right: 20px;"></a>
-    </ul>
-    <div class="main" >
-        <div class="markdown-body" id="app"></div>
+    <link rel="stylesheet" href="//unpkg.com/element-plus/dist/index.css" />
+    <script src="https://cdn.bootcss.com/marked/0.8.1/marked.min.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css" rel="stylesheet">
+</head>
+
+<body data-v-app>
+    <div>
+        <ul role="menubar" class="el-menu el-menu--horizontal pp" style="--el-menu-text-color: #606266; --el-menu-hover-text-color: #606266; --el-menu-level: 0; border-radius: 5px;">
+            <li class="el-menu-item" onclick='window.location.href="../index.html"' style="margin: auto 20px;"><img src="https://s1.ax1x.com/2023/07/21/pCHXsq1.png" height="40px" style="border-radius: 3px; box-shadow: 0.05px 0.05px 1px 0.1px;"></li>
+            <li class="el-menu-item" onclick='window.location.href="doc.html"'>文档</li>
+            <li class="el-menu-item" onclick='window.location.href="soft.html"'>软件</li>
+            <li class="el-menu-item" onclick='window.location.href="link.html"' style="margin-right: 60px;">导航</li><a class="iim" href="https://space.bilibili.com/1026296481" tabindex="0"><img src="https://www.bilibili.com/favicon.ico?v=1" height="20px" style="position: absolute; top: 30%; right: 60px;"></a><a class="iim" href="https://github.com/kaersie" tabindex="0"><img src="https://css.kkgithub.com/favicons/favicon.png" height="20px" style="position: absolute; top: 30%; right: 20px;"></a>
+        </ul>
+        <div class="main">
+            <div class="markdown-body" id="app"></div>
+        </div>
+        <ul role="menubar" class="el-menu el-menu--vertical" style="--el-menu-level: 0; padding: 5px; border-radius: 5px; margin: 0px 60px;"><span class="el-text" style="font-size: small;">Copyright©2024卡尔斯厄保留所有权利</span></ul>
     </div>
-    <ul role="menubar" class="el-menu el-menu--vertical" style="--el-menu-level: 0; padding: 5px; border-radius: 5px; margin: 0px 60px;"><span class="el-text" style="font-size: small;">Copyright © 2024 卡尔斯厄 保留所有权利</span></ul>
-    
-  </div>
-    </body>
-      <script>
-       
-       
-            let url=location.search;
-            let strs;
-            let str;
-            let name;
-            if(url.indexOf("?")!=-1){
-                str=url.substr(1);
-                strs=str.split("&");
-                name=decodeURIComponent(strs[0].replace("name=",""));
-            }
-            if (name==""| name==null){
-                i=1;
-                while(i==1){
-                    name=prompt("怎么称呼您？");
-                if (name!=null&name!="") {
-                    i=2;   
-                }else{alert("姓名不能为空");}
-                }
-            }
-            console.log(name);
-            showagain() ;
+</body>
+<script>
+    let url=location.search;let strs;let str;let name;if(url.indexOf("?")!=-1){str=url.substr(1);strs=str.split("&");name=decodeURIComponent(strs[0].replace("name=",""))}if(name==""|name==null){i=1;while(i==1){name=prompt("怎么称呼您？");if(name!=null&name!=""){i=2}else{alert("姓名不能为空")}}}console.log(name);showagain();async function showagain(){name="../docs/doc"+name+".md";const res=await fetch(name);const data=await res.text();let markdown=document.getElementById('app');markdown.innerHTML=marked(data);let n=document.getElementsByTagName("h1");console.log(n);document.title=n[0].innerText+"-卡尔斯厄的站"}
+</script>
+<style>
+    h1,p{color:#606266}
+</style>
 
-
-        async function showagain() {
-        name="../docs/doc"+name+".md"
-         const res = await fetch(name);
-        const data = await res.text();
-        let markdown = document.getElementById('app');
-        markdown.innerHTML = marked(data);
-        let n=document.getElementsByTagName("h1");
-        console.log(n);
-        document.title=n[0].innerText+"-卡尔斯厄的站";
-        }
-      </script>
-      <style>
-        h1,p{color:#606266}
-      </style>
-    </html>
+</html>
