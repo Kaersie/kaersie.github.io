@@ -2,46 +2,46 @@
   {
     "link":"https:\\\\grasp.lanzout.com\\b03dl5xja",
     "name":"作者仓库",
-    "text":"各种自制未发布软件（密码是1234）"
+    "text":"各种未发布资源（密码1234）"
   },{
     "link":"https:\\\\granderos.mysxl.cn",
     "name":"Grander OS 模拟程序",
-    "text":"作者自制的模拟操作系统"
+    "text":"自制的模拟操作系统（已停更）"
   },{
-    "link":"http:\\\\kaersie.great-site.net",
-    "name":"反馈页面",
-    "text":"对于网站进行反馈"
+    "link":"https:\\\\grasp.lanzout.com\\b00654kz2j",
+    "name":"Diagonal Docker",
+    "text":"可适用于大屏设备的桌面钟，内置教学小工具"
   },{
-    "link":"http:\\\\kaersie.github.io\\kdoc",
-    "name":"卡尔斯厄-资源站",
-    "text":"仅限昆明润城学校高一同学使用"
-  },{
-    "link":"https:\\\\grasp.lanzout.com\\b03d86sxc",
-    "name":"桌面钟",
-    "text":"好用轻巧的桌面时钟（密码：1234）"
-  },{
-    "link":"https:\\\\grasp.lanzout.com\\b03fev0ti",
-    "name":"抽号器",
-    "text":"为希沃大屏优化，抽号更轻松（密码：1234）"
-  },{
-    "link":"https:\\\\grasp.lanzout.com\\iTcTF1mdjcle",
+    "link":"https:\\\\grasp.lanzout.com\\b00654l65e",
     "name":"小组积分统计系统",
-    "text":"为希沃大屏优化，积分统计更轻松"
+    "text":"小组管理神器，已适配大屏设备"
   },{
-    "link":"https:\\\\grasp.lanzout.com\\i5ZI71mdjhib",
-    "name":"设备锁",
-    "text":"防止他人或学生乱动设备"
+    "link":"https:\\\\grasp.lanzout.com\\b00654laha",
+    "name":"一分零五秒模拟器",
+    "text":"模拟真实场景，已适配大屏设备"
+  },{
+    "link":"https:\\\\grasp.lanzout.com\\b00654l92j",
+    "name":"Flash Tag",
+    "text":"在桌面上写字，贴标语、做装饰，样样都方便，已适配大屏设备"
   },{
     "link":"https:\\\\kaersie.github.io\\year",
     "name":"祝福小助手",
     "text":"网站内支持分享，把祝福送给ta"
   },{
-    "link":"https:\\\\grasp.lanzout.com\\iHo9n1p7tjuh",
-    "name":"Flash Tag",
-    "text":"可在电脑桌面上轻松显示文字，为希沃大屏优化"
+    "link":"https:\\\\grasp.lanzout.com\\b03d86sxc",
+    "name":"Clocks",
+    "text":"具有不同功能的时钟软件们，部分适配大屏设备"
   },{
-    "link":"https:\\\\grasp.lanzout.com\\b00654kz2j",
-    "name":"Diagonal Docker",
-    "text":"可一款适用于大屏设备的小工具集（密码：1234）"
+    "link":"https:\\\\grasp.lanzout.com\\i5ZI71mdjhib",
+    "name":"Diagonal Lock",
+    "text":"可一步直接锁定大屏的小工具"
+  },{
+    "link":"https:\\\\grasp.lanzout.com\\iTd5y14pppub",
+    "name":"文字情绪判断模型",
+    "text":"支持英文，需要先安装 .NET Core 运行库"
+  },{
+    "link":"https://grasp.lanzout.com/b03fev0ti",
+    "name":"卡尔斯厄抽号器",
+    "text":"班级抽号更轻松，已适配大屏设备"
   }
 ]
